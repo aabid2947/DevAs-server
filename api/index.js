@@ -2,9 +2,9 @@ import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import cors from 'cors';
-import authRoutes from './routes/auth.js';
-import userRoutes from './routes/users.js';
-import friendRoutes from './routes/friends.js';
+import authRoutes from '../routes/auth.js';
+import userRoutes from '../routes/users.js';
+import friendRoutes from '../routes/friends.js';
 
 dotenv.config();
 
